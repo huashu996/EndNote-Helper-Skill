@@ -29,3 +29,4 @@ Inspect `word/document.xml` for:
 ## Post-Processing Warning
 
 If EndNote does not generate citation-number hyperlinks, a post-processing step can add bookmarks and internal hyperlinks only after final EndNote formatting. Warn the user that future EndNote updates may remove those post-processed links.
+

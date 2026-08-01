@@ -64,3 +64,4 @@ For each record report:
 - publication status;
 - duplicate candidate IDs;
 - recommended action.
+

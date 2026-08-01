@@ -36,3 +36,4 @@ Capture:
 - Do not copy source sentences.
 - If the sample conflicts with the user's explicit instructions, follow the user.
 - If the sample is weak or inconsistent, report the issue and extract only stable traits.
+
