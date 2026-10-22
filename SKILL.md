@@ -304,6 +304,10 @@ Use it for:
 
 Keep the project root clean.
 
+## Sharing And Reusable Examples
+
+Keep real libraries, manuscript text, local paths, task reports, and credentials in the user's task workspace. They are not reusable skill assets. When publishing or sharing the skill, use generic file/group names and explicitly synthetic examples; do not copy actual task records, personal details, or local Git metadata into the package. Review generated reports before sharing because they can contain input paths, reference metadata, and source URLs. This does not authorize changing real authorship or citation metadata in the user's research documents.
+
 ## Error Handling
 
 Do not guess. Report clearly when:

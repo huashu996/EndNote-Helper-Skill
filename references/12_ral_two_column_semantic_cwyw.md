@@ -194,9 +194,11 @@ When an existing paragraph is copied from a published paper, reconstruct the log
 Use real EndNote record numbers:
 
 ```text
-{Zhang, 2016 #69}
-{Zhang, 2016 #69; Zheng, 2021 #51}
+{AuthorA, YearA #RecordNumberA}
+{AuthorA, YearA #RecordNumberA; AuthorB, YearB #RecordNumberB}
 ```
+
+These are syntax placeholders only. Replace all values with verified metadata and numeric record numbers from the confirmed library; never insert the placeholders as real citations.
 
 Rules:
 

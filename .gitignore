@@ -10,3 +10,21 @@ build/
 *.Data/
 *.docx
 *.pdf
+
+# Local research material and exports
+*.enlx
+*.enlp/
+*.doc
+*.docm
+*.ris
+*.bib
+*.bibtex
+private/
+local-data/
+reports/
+
+# Local configuration and credentials
+.env
+.env.*
+*.pem
+*.key

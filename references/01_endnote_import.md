@@ -47,20 +47,22 @@ Use `Web Page` for ordinary web pages and `Government Document`, `Report`, or `S
 
 For Chinese corporate authors, use a trailing comma in EndNote when needed to prevent name inversion, for example:
 
-`工业和信息化部,`
+`示例机构,`
 
 ## Minimal RIS Example For A Website
 
+This is a synthetic formatting example, not a real source. Replace every value with verified source metadata before importing it into a research library. When passing RIS to the bundled minimal parser, ensure that the `ER` line includes a space after the hyphen; some editors trim that space from copied examples.
+
 ```ris
 TY  - ELEC
-AU  - 工业和信息化部,
+AU  - 示例机构,
 PY  - 2024
-TI  - 四部门关于印发《通用航空装备创新应用方案（2024-2030年）》的通知
-T2  - 工业和信息化部
-PB  - 工业和信息化部
-DA  - 2024/03/27
-UR  - https://example.gov.cn/page.html
-Y2  - 2026/07/13
+TI  - 示例网页标题（仅用于演示）
+T2  - 示例机构
+PB  - 示例机构
+DA  - 2024/01/01
+UR  - https://example.org/reference-example
+Y2  - 2024/02/01
 ER  -
 ```
 

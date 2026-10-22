@@ -1,5 +1,7 @@
 # Examples
 
+All file names, group names, and task descriptions below are generic examples, not personal research records.
+
 All examples must follow the interactive gate:
 
 1. detect task type;
@@ -11,7 +13,7 @@ All examples must follow the interactive gate:
 ## Example 1: Import Paper Links Into EndNote
 
 ```text
-使用 EndNote-Helper-Skill，读取 links.txt 中的论文链接，检查正式发表信息，生成 RIS 文件，导入 My EndNote Library，并加入 Collaborative SLAM 组集。
+使用 EndNote-Helper-Skill，读取 links.txt 中的论文链接，检查正式发表信息，生成 RIS 文件，导入 My EndNote Library，并加入 Example Group 组集。
 ```
 
 Expected first response if some parameters are missing:
@@ -20,7 +22,7 @@ Expected first response if some parameters are missing:
 当前还需要确认以下项目：
 
 1. EndNote Library 的完整路径是什么？
-2. `Collaborative SLAM` 是已有 Group 还是需要新建？
+2. `Example Group` 是已有 Group 还是需要新建？
 3. 版本优先规则：正式期刊 / 正式会议 / Early Access / arXiv / 保留全部？
 4. 疑似重复文献如何处理：只报告 / 跳过 / 保留正式版本 / 逐条确认？
 5. 是否下载并关联 PDF？
@@ -41,7 +43,7 @@ Execution after confirmation:
 ## Example 2: Generate Related Work
 
 ```text
-使用 EndNote-Helper-Skill，读取 EndNote Library 中的 Collaborative SLAM 组集，按照“集中式协同 SLAM、分布式协同 SLAM、通信受限协同 SLAM、协同地图融合”的逻辑生成高质量 Related Work，并将 EndNote CWYW 引用插入 thesis.docx 的 1.2.3 节。
+使用 EndNote-Helper-Skill，读取 EndNote Library 中的 Example Group 组集，按照“研究问题、方法类别、实验证据、现有局限”的逻辑生成高质量 Related Work，并将 EndNote CWYW 引用插入 manuscript.docx 的 Related Work 节。
 ```
 
 Expected first response if some parameters are missing:
@@ -50,13 +52,13 @@ Expected first response if some parameters are missing:
 当前还需要确认以下项目：
 
 1. EndNote Library 的完整路径是什么？
-2. 是否仅允许引用 `Collaborative SLAM` 组集内文献？
+2. 是否仅允许引用 `Example Group` 组集内文献？
 3. 写作语言和文档类型是什么？
 4. 目标字数或页数是多少？
-5. 是否有写作风格参考文件或沿用 thesis.docx 现有风格？
+5. 是否有写作风格参考文件或沿用 manuscript.docx 现有风格？
 6. EndNote Output Style 沿用 Word 当前样式还是指定其他样式？
-7. 写入方式：替换 1.2.3 原文 / 追加 / 保留并优化？
-8. 输出文件覆盖 thesis.docx 还是另存？
+7. 写入方式：替换 Related Work 原文 / 追加 / 保留并优化？
+8. 输出文件覆盖 manuscript.docx 还是另存？
 ```
 
 After user answers, output task summary and wait for `确认执行`.
@@ -74,7 +76,7 @@ Execution after confirmation:
 ## Example 3: Learn Writing Style
 
 ```text
-使用 EndNote-Helper-Skill，学习 example_thesis.docx 中第 1.2 节的写作风格、引用密度和排版格式，然后基于 EndNote 的 LiDAR SLAM 组集撰写新的研究现状。
+使用 EndNote-Helper-Skill，学习 style_sample.docx 中第 1.2 节的写作风格、引用密度和排版格式，然后基于 EndNote 的 Example Group 组集撰写新的研究现状。
 ```
 
 Expected first response if some parameters are missing:
@@ -83,7 +85,7 @@ Expected first response if some parameters are missing:
 当前还需要确认以下项目：
 
 1. EndNote Library 的完整路径是什么？
-2. `LiDAR SLAM` 组集是否为唯一文献范围？
+2. `Example Group` 组集是否为唯一文献范围？
 3. 新研究现状的章节标题和写入位置是什么？
 4. 目标字数或页数是多少？
 5. 是否插入真实 EndNote CWYW 引用？
@@ -103,7 +105,7 @@ Execution after confirmation:
 ## Example 4: Update Existing Related Work
 
 ```text
-使用 EndNote-Helper-Skill，检查 thesis.docx 中已有 Related Work，结合 EndNote 指定组集补充缺失文献，修正错误引用，保留现有 CWYW 字段，并更新文后参考文献。
+使用 EndNote-Helper-Skill，检查 manuscript.docx 中已有 Related Work，结合 EndNote 指定组集补充缺失文献，修正错误引用，保留现有 CWYW 字段，并更新文后参考文献。
 ```
 
 Expected first response if some parameters are missing:
@@ -111,12 +113,12 @@ Expected first response if some parameters are missing:
 ```text
 当前还需要确认以下项目：
 
-1. 需要检查 thesis.docx 的哪个章节或范围？
+1. 需要检查 manuscript.docx 的哪个章节或范围？
 2. 使用哪个 EndNote Library 和 Group？
 3. 是否允许删除不相关引用？
 4. 是润色、补充、重构，还是三者都做？
 5. 目标字数或页数是否需要变化？
-6. 是否直接写回 thesis.docx？
+6. 是否直接写回 manuscript.docx？
 7. 是否输出修改说明或对照表？
 ```
 
@@ -138,7 +140,7 @@ Execution after confirmation:
 User:
 
 ```text
-使用 Collaborative SLAM 组集写研究现状。
+使用 Example Group 组集写研究现状。
 ```
 
 Skill must ask at least:
@@ -161,7 +163,7 @@ It must not read the whole library or start writing.
 User:
 
 ```text
-基于 EndNote 中的 LiDAR SLAM 组写博士论文 1.2.1 节，约 10 页，按点到点、点到面、固态雷达、连续时间和通用场景组织，写入毕业论文.docx，并插入 CWYW 引用。
+基于 EndNote 中的 Example Group 组写学位论文 Related Work 节，约 10 页，按研究背景、方法分类、比较分析和局限组织，写入 manuscript.docx，并插入 CWYW 引用。
 ```
 
 Skill must not repeat already clear parameters:

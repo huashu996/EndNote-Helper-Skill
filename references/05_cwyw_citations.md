@@ -19,13 +19,13 @@ Use:
 
 For multiple references:
 
-`{Beuchert, 2023 #10; Guo, 2023 #11; Zhu, 2022 #13}`
+`{AuthorA, YearA #RecordNumberA; AuthorB, YearB #RecordNumberB}`
 
 For corporate website authors:
 
-`{工业和信息化部, 2024 #311}`
+`{CorporateAuthor, Year #RecordNumber}`
 
-The record number is the reliable identifier. Author/year text helps EndNote disambiguate.
+These are syntax placeholders, not real citations. Obtain every author, year, and numeric record number from the confirmed library before use. The record number identifies a record within that library; it is not a portable identifier across libraries. Author/year text helps EndNote disambiguate.
 
 ## Existing Text Insertion
 
